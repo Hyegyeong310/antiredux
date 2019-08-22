@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2",
+    "styled-flex-component": "^3.0.0",
+    "styled-reset": "^3.0.2",
+    "typography": "^0.16.19"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +18,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "prettier",
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
