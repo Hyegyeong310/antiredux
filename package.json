@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.6.1",
     "react-scripts": "3.1.1",
     "styled-components": "^4.3.2",
     "styled-flex-component": "^3.0.0",
