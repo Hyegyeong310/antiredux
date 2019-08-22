@@ -13,11 +13,18 @@ body {
 
 class AppContainer extends Component {
   state = {
-    message: 'Hello'
+    message: 'Hello',
+    stuff: 10,
+    loggedIn: false
+  };
+  componentDidMount = () => {
+    setTimeout(() => {
+      this.setState({ message: 'bye' });
+    }, 2000);
   };
   render() {
     return (
-      <Store.Provider value={this.state.message}>
+      <Store.Provider value={this.state}>
         <GlobalStyle />
         <AppPresenter />
       </Store.Provider>
